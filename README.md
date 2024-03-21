@@ -36,9 +36,10 @@ Saída
 A saída deve ser o maior valor dessa lista.
 
 
+## Considerações
 
 Sinta-se à vontade para clonar este repositório e experimentar os códigos você mesmo! Se tiver alguma dúvida ou sugestão de melhoria, não hesite em entrar em contato.
 
   ```
 Neste README.md, cada desafio é descrito brevemente e o código correspondente é fornecido junto com explicações relevante
-  ´´´
+
