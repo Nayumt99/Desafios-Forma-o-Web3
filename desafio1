@@ -1,0 +1,7 @@
+const ganhouAposta = parseInt(gets());
+
+if (ganhouAposta === 1) {
+    print("Ficou rico!");
+} else {
+    print("Perdeu tudo!");
+}
