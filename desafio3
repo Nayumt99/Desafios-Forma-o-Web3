@@ -1,0 +1,15 @@
+// Lê a lista de valores
+let valores = gets().split(" ").map(Number);
+
+// Inicializa o valor máximo como o menor número possível
+let maximo = Number.MIN_SAFE_INTEGER;
+
+// Percorre a lista de valores para encontrar o maior
+for (let i = 0; i < valores.length; i++) {
+    if (valores[i] > maximo) {
+        maximo = valores[i];
+    }
+}
+
+// Imprime o maior valor
+print(maximo);
