@@ -1,0 +1,19 @@
+let n = parseInt(gets());
+
+// Valor inicial de criptomoedas
+let valorInicial = 50;
+
+// Rendimento a cada 10 criptomoedas
+let rendimentoPorDezena = 1;
+
+// Calcula o número de dezenas completas
+let dezenasCompletas = Math.floor(valorInicial / 10);
+
+// Calcula o rendimento total
+let rendimentoTotal = dezenasCompletas * rendimentoPorDezena * n;
+
+// Calcula o valor total de criptomoedas
+let valorTotal = valorInicial + rendimentoTotal;
+
+// Imprime o resultado
+print(valorTotal + " criptomoedas");
